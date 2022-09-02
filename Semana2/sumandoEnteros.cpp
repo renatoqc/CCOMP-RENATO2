@@ -1,13 +1,18 @@
 #include <iostream>
 
 using namespace std;
-
+/*
+Programa que recibe don enteros por teclado e imprime la suma de ambos.
+*/
 int main() {
     int a;
-    a = 20;
-
     int b;
-    b = 10;
+    //declarando dos variables de tipo entero
+    cout << "Ingrese primer numero: ";
+    cin >> a;
+    cout << "Ingrese segundo numero: ";
+    cin >> b;
+
 
     int suma = a + b;
 

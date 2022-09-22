@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdio.h>
 #define LIMIT 100
 
@@ -16,12 +15,12 @@ int main()
   
   printf("%d\n", square - sum);
   return 0;
-=======
+
 #include <iostream>
 using namespace std;
 
-int main() {
+int main();
     int n;
-    
->>>>>>> 3d5f6905a779820f9419bf3039679580ea375bab
+
+
 }

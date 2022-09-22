@@ -8,13 +8,13 @@ int main()
 {
     int product = 0;
     int greatestPal = 0;
-    // i starts at lowest 3-digit number(100), ends at largest(999)
-    // brute force method which tests all combinations of two three-digit numbers
+    // empiezo en el número más bajo de 3 dígitos (100), termina en el más grande (999)
+    // método de fuerza bruta que prueba todas las combinaciones de dos números de tres dígitos
     for(int i = 100; i < 1000; i++){
         for(int j = 100; j < 1000; j++){
-            // get product of numbers:
+            // producto de numeros
             product = i * j;
-            // if palindrome and greatestPal hasn't been initialized yet
+            // si palindrome y greatPal aún no se han inicializado
             if(isPal(product) && greatestPal==0){
                     greatestPal = product;
                 }

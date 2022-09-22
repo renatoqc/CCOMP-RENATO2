@@ -7,7 +7,7 @@ int main(){
 
     for (int i = 0; i <n; i++)
     {
-        if(3*i < n)
+        if(3*i < n)    // 15
 			sum += 3*i;
 		if(5*i < n && (5*i) % 3 != 0)
 			sum += 5*i;
